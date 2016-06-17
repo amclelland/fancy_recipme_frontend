@@ -1,0 +1,23 @@
+.header {
+  @include outer-container(100%);
+  border-bottom: 1px solid gray;
+  padding: 1em 15px 0.5em 15px;
+  background-color: $light-green;
+  margin-bottom: 1em;
+
+  .logo {
+    @include span-columns(4);
+  }
+
+  .header-links {
+    @include omega();
+    float: right;
+    list-style-type: none;
+
+
+    li {
+      display: inline;
+      margin-left: 3em;
+    }
+  }
+}

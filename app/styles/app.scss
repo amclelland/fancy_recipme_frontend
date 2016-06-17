@@ -1,3 +1,17 @@
+@import "bourbon";
+@import "base/base";
+@import "neat";
+
+@import 'modules/header';
+
+body {
+  margin: 0;
+}
+
+.container {
+  @include outer-container();
+}
+
 .meal-card {
   img {
     max-width: 100px;
