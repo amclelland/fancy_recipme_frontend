@@ -1,10 +1,10 @@
 <div class="header">
-  <h1 class="logo">
+  {{#link-to 'index' tagName="h1" class="header-link logo"}}
     <span class="recip">Recip</span><span class="me">Me</span>
-  </h1>
+  {{/link-to}}
 
   <ul class="header-links">
-    <li>Meals</li>
+    {{#link-to 'meals' tagName="li" class="header-link"}}Meals{{/link-to}}
     <li>Week</li>
     <li>Grocery List</li>
   </ul>
