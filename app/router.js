@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('meals');
+  this.route('not-found', { path: '/*path' });
 });
 
 export default Router;
