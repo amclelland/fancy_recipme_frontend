@@ -1,0 +1,23 @@
+.meal-list {
+  .meal-card {
+    width: 20%;
+    height: 325px;
+    border: 1px solid lightGray;
+    border-radius: 5px;
+    display: inline-block;
+
+    &:nth-child(n+2) {
+      margin-left: 1%;
+    }
+
+    img {
+      object-fit: cover;
+      height: 200px;
+      border-bottom: 1px solid lightGray;
+    }
+
+    .meal-name {
+      margin-left: 1em;
+    }
+  }
+}

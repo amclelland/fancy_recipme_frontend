@@ -1,19 +1,25 @@
 .header {
   @include outer-container(100%);
   border-bottom: 1px solid gray;
-  padding: 1em 15px 0.5em 15px;
+  padding: 1em 4em;
   background-color: $light-green;
   margin-bottom: 1em;
 
   .logo {
     @include span-columns(4);
+    font-size: 26px;
+    margin-bottom: 0;
+
+    .me {
+      color: $dark-blue;
+    }
   }
 
   .header-links {
     @include omega();
     float: right;
     list-style-type: none;
-
+    font-size: 21px;
 
     li {
       display: inline;

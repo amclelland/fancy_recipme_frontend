@@ -3,19 +3,12 @@
 @import "neat";
 
 @import 'modules/header';
+@import 'modules/meal_card';
 
 body {
   margin: 0;
 }
 
 .container {
-  @include outer-container();
-}
-
-.meal-card {
-  img {
-    max-width: 100px;
-    border: 1px solid lightGray;
-    padding: 1em;
-  }
+  @include outer-container(80%);
 }

@@ -1,8 +1,10 @@
 <h1>Meals</h1>
 
-<ul>
+<ul class="meal-list">
   {{#each model as |meal|}}
-    {{meal-card meal=meal}}
+    <div class="meal-card">
+      {{meal-card meal=meal}}
+    </div>
   {{/each}}
 </ul>
 
