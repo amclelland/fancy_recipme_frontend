@@ -1,0 +1,9 @@
+<h1>Meals</h1>
+
+<ul>
+  {{#each model as |meal|}}
+    {{meal-card meal=meal}}
+  {{/each}}
+</ul>
+
+{{outlet}}
