@@ -1,2 +1,7 @@
-<img src={{meal.image}}>
-<h2 class="meal-name">{{meal.name}}</h2>
+{{#link-to 'meal' meal}}
+  <img src={{meal.image}}>
+{{/link-to}}
+
+{{#link-to 'meal' meal}}
+  <h2 class="meal-name">{{meal.name}}</h2>
+{{/link-to}}

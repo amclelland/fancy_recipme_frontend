@@ -1,9 +1,11 @@
-@import "bourbon";
-@import "base/base";
-@import "neat";
+@import 'bourbon';
+@import 'base/base';
+@import 'neat';
 
 @import 'modules/header';
 @import 'modules/meal_card';
+
+@import 'pages/meal';
 
 body {
   margin: 0;
