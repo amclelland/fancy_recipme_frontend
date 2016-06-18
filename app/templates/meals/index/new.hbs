@@ -1,0 +1,8 @@
+<div class="new-meal-box">
+  <h2>Create New Meal</h2>
+  <form {{action "create" on="submit"}}>
+    {{paper-input label="Name" value=model.name required=true icon="comment"}}
+    {{paper-input label="Image URL" value=model.image required=true icon="image"}}
+    {{#paper-button raised=true primary=true}}Create{{/paper-button}}
+  </form>
+</div>

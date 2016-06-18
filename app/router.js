@@ -6,8 +6,13 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('meals');
-  this.route('meal', { path: '/meal/:meal_id' });
+  this.route('meals', function() {
+    this.route('index', { path: '/' }, function(){
+      this.route('new');
+    });
+    this.route('show', { path: ':meal_id' });
+  });
+
   this.route('not-found', { path: '/*path' });
 });
 

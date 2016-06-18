@@ -1,5 +1,10 @@
 <h1>Meals</h1>
 
+{{#link-to 'meals.index.new'}}
+{{#paper-button primary=true noink="true"}}New Meal{{/paper-button}}
+{{/link-to}}
+{{outlet}}
+
 <ul class="meal-list">
   {{#each model as |meal|}}
     <div class="meal-card">
@@ -7,5 +12,3 @@
     </div>
   {{/each}}
 </ul>
-
-{{outlet}}
