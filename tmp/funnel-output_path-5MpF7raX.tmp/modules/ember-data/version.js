@@ -1,0 +1,1 @@
+/home/allan/projects/recipme-ember/tmp/creator-output_path-2EwhYs23.tmp/version.js

@@ -1,0 +1,1 @@
+/home/allan/projects/recipme-ember/tmp/funnel-input_base_path-ia2hl7bk.tmp/0/components/ember-wormhole.js

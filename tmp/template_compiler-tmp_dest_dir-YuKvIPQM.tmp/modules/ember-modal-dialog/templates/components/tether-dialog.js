@@ -1,0 +1,1 @@
+/home/allan/projects/recipme-ember/tmp/template_compiler-tmp_cache_dir-eMZu8Oyb.tmp/1
