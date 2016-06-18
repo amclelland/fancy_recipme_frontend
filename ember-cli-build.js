@@ -5,6 +5,11 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
+
+    fingerprint: {
+      prepend: 'http://recipme-ember.herokuapp.com/'
+    },
+
     sassOptions: {
       includePaths: [
         'bower_components/bourbon/app/assets/stylesheets',
