@@ -40,7 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.host = 'http://recipme-rails.herokuapp.com/'
   }
 
   ENV.contentSecurityPolicy = {
