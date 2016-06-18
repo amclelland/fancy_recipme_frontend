@@ -1,1 +1,0 @@
-/home/allan/projects/recipme-ember/node_modules/ember-paper/node_modules/ember-wormhole/app/components/ember-wormhole.js

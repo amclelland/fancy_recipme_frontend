@@ -1,1 +1,0 @@
-/home/allan/projects/recipme-ember/tmp/funnel-input_base_path-1RwrtCg6.tmp/0//vendor-prefix.js

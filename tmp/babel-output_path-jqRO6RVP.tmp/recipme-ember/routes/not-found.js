@@ -1,3 +1,0 @@
-define('recipme-ember/routes/not-found', ['exports', 'ember'], function (exports, _ember) {
-  exports['default'] = _ember['default'].Route.extend({});
-});

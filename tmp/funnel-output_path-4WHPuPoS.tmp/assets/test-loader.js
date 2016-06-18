@@ -1,1 +1,0 @@
-/home/allan/projects/recipme-ember/tmp/funnel-input_base_path-HeO0nMz6.tmp/0/bower_components/ember-cli-test-loader/test-loader.js
