@@ -8,8 +8,7 @@ export default Ember.Route.extend({
   actions: {
     create: function() {
       var newMeal = this.get('currentModel');
-      newMeal.save();
-      this.transitionTo('meals');
+      newMeal.save().then(() => this.transitionTo('meals.show', newMeal));
     }
   }
 });
