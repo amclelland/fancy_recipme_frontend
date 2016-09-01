@@ -1,5 +1,5 @@
 <div class="meal">
-  <h1>{{model.name}}</h1>
+  <h1>{{ember-inline-edit value=model.name onSave='changeName'}}</h1>
   <img src={{model.image}} class="meal-image">
 
   <hr>
