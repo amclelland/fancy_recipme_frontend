@@ -5,4 +5,9 @@
   <hr>
 
   <h2>Ingredients:</h2>
+  {{#paper-button primary=true noink="true"}}New Ingredient{{/paper-button}}
+
+  {{#each model.ingredients as |ingredient|}}
+    <p>{{ingredient.name}}</p>
+  {{/each}}
 </div>
